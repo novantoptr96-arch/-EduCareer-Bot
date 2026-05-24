@@ -53,20 +53,3 @@ GEMINI_API_KEY = "API_KEY_GEMINI_KAMU"
 py -m streamlit run app.py
 ```
 
-## Deploy ke Streamlit Cloud
-
-1. Upload project ke GitHub.
-2. Buka Streamlit Community Cloud.
-3. Create app dari repository GitHub.
-4. Main file path: `app.py`.
-5. Isi Secrets:
-
-```toml
-GEMINI_API_KEY = "API_KEY_GEMINI_KAMU"
-```
-
-6. Deploy.
-
-## Catatan Keamanan
-
-Jangan upload file `.streamlit/secrets.toml` ke GitHub.
